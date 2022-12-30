@@ -5,15 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="PHP Quizz Presentation"
-        tools:layout_editor_absoluteX="131dp"
-        tools:layout_editor_absoluteY="16dp"
-        tools:ignore="MissingConstraints" />
-
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="416dp"
         android:layout_height="527dp"
@@ -27,13 +18,27 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="133dp"
+            android:layout_marginEnd="135dp"
+            android:layout_marginBottom="508dp"
+            android:text="PHP Quizz Presentation"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
             android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="36dp"
             android:layout_marginBottom="426dp"
             android:gravity="center"
-            android:text="You want to know what questions are asked in a PHP related Interview? \n Test your knowledge by answering these common PHP interview questions! \n Answer all you'll know you are ready for that job!"
+            android:text="You want to know what questions are asked in a SQL related Interview? \n Test your knowledge by answering these common SQL interview questions! \n Answer all you'll know you are ready for that job!"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
@@ -51,10 +56,11 @@
             android:layout_marginTop="220dp"
             android:layout_marginEnd="158dp"
             android:layout_marginBottom="279dp"
-            android:text="Commencer"
+            android:onClick="startSQLquizz"
+            android:text="START"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.571"
+            app:layout_constraintHorizontal_bias="0.827"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="1.0" />

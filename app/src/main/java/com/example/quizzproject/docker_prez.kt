@@ -1,5 +1,6 @@
 package com.example.quizzproject
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
@@ -12,6 +13,8 @@ class docker_prez : AppCompatActivity() {
     fun startDockerquizz(view: View) {
         val asyncTask = AsyncCall()
         asyncTask.execute("Docker")
+        val intent = Intent(this, question::class.java)
+        startActivity(intent)
 
     }
 }

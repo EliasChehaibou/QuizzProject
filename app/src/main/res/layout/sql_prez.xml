@@ -24,7 +24,7 @@
             android:layout_marginStart="133dp"
             android:layout_marginEnd="135dp"
             android:layout_marginBottom="508dp"
-            android:text="PHP Quizz Presentation"
+            android:text="SQL Quizz Presentation"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

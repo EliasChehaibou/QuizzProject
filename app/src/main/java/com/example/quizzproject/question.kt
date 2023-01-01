@@ -1,6 +1,8 @@
 package com.example.quizzproject
 
+import android.content.Intent
 import android.os.Bundle
+import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -39,4 +41,10 @@ class question : AppCompatActivity()  {
         println(jsonObject)
         binding.executePendingBindings()
     }
+
+    fun goHome(view: View) {
+        val intent = Intent(this, home::class.java)
+        startActivity(intent)
+    }
+
 }

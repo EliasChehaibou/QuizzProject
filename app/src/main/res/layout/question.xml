@@ -44,12 +44,15 @@
             android:layout_marginTop="16dp"
             android:layout_marginEnd="8dp"
             android:layout_marginBottom="8dp"
+            android:clipChildren="false"
             android:orientation="vertical"
+            android:dividerHeight="0dp"
             app:items="@{answers}"
             app:layout_constraintBottom_toTopOf="@+id/button7"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+            app:layout_constraintTop_toBottomOf="@+id/textView4"/>
+
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -82,10 +85,27 @@
             android:layout_marginStart="301dp"
             android:layout_marginTop="54dp"
             android:layout_marginEnd="16dp"
-            android:text="Button"
+            android:text="Next"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/recycler_view" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="54dp"
+            android:layout_marginEnd="189dp"
+            android:layout_marginBottom="94dp"
+            android:text="QUIT"
+            android:onClick="goHome"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/button7"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/recycler_view"
+            app:layout_constraintVertical_bias="0.0" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout></layout>

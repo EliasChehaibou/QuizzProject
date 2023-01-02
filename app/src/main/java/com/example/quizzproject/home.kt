@@ -11,11 +11,6 @@ class home : AppCompatActivity() {
         setContentView(R.layout.home)
     }
 
-    fun goResult(view: View) {
-        val intent = Intent(this, result::class.java)
-        startActivity(intent)
-    }
-
     fun goSQLprez(view: View) {
         val intent = Intent(this, sql_prez::class.java)
         startActivity(intent)

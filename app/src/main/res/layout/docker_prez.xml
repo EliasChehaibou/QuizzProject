@@ -40,7 +40,7 @@
             android:layout_marginEnd="8dp"
             android:layout_marginBottom="396dp"
             android:gravity="center"
-            android:text="Top 10 Docker Interview Questions for Junior and Senior DevOps engineers and software developers."
+            android:text="Top 10 Docker Interview Questions for Junior and Senior DevOps engineers and software developers. \n\n\n Be careful one or more answer can be true."
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

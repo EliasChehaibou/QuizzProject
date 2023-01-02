@@ -54,9 +54,6 @@ class question : AppCompatActivity()  {
     }
 
     fun checkLists(booleanList: List<Boolean>, stringList: List<String>) : Boolean {
-        if (booleanList.size != stringList.size) {
-            return false
-        }
         for (i in booleanList.indices) {
             if (booleanList[i] && stringList[i] != "true") {
                 return false
@@ -101,6 +98,7 @@ class question : AppCompatActivity()  {
         if (checkLists(selectedAnswers,correct_answers )) {
             val builder = AlertDialog.Builder(this)
             builder.setTitle("True")
+            builder.setMessage("Good job !")
             builder.setPositiveButton("OK") { dialog, which ->
                 goNextActivity()
             }

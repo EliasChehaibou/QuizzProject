@@ -34,9 +34,11 @@
 
         <TextView
             android:id="@+id/textView2"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
             android:layout_marginTop="97dp"
+            android:layout_marginEnd="8dp"
             android:layout_marginBottom="378dp"
             android:gravity="center"
             android:text="Just started learning Linux and Bash? Test your knowledge by answering these 15 common interview questions! Answer 15 out of 15 and you'll know you are ready for that job!"

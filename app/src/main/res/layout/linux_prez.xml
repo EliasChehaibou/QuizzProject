@@ -45,15 +45,14 @@
             android:gravity="center"
             android:textColor="@color/white"
             android:textSize="18sp"
-            android:text="Just started learning Linux and Bash? Test your knowledge by answering these 15 common interview questions! Answer 15 out of 15 and you'll know you are ready for that job!"
             android:textStyle="bold"
+            android:text="Just started learning Linux and Bash? Test your knowledge by answering these 15 common interview questions! Answer 15 out of 15 and you'll know you are ready for that job!\n\n\n Be careful one or more answer can be true."
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="1.0"
-            tools:ignore="MissingConstraints" />
+            app:layout_constraintVertical_bias="1.0" />
 
         <Button
             android:id="@+id/button2"

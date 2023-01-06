@@ -44,7 +44,7 @@
             android:gravity="center"
             android:textColor="@color/white"
             android:textSize="18sp"
-            android:text="You want to know what questions are asked in a SQL related Interview? \n Test your knowledge by answering these common SQL interview questions! \n Answer all you'll know you are ready for that job!"
+            android:text="You want to know what questions are asked in a SQL related Interview? \n Test your knowledge by answering these common SQL interview questions! \n Answer all you'll know you are ready for that job!\n\n\n Be careful one or more answer can be true."
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"

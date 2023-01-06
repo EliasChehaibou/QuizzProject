@@ -6,15 +6,12 @@
     android:layout_height="match_parent">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="341dp"
-        android:layout_height="423dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        android:background="#1A1A1D"
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
@@ -26,11 +23,16 @@
             android:layout_marginEnd="8dp"
             android:layout_marginBottom="300dp"
             android:text="Choose a category"
-            android:textSize="24sp"
+            android:textColor="#950740"
+            android:textAlignment="center"
+            android:textSize="38sp"
+            android:gravity="center"
+            android:padding="26dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.385" />
 
         <Button
             android:id="@+id/button"
@@ -42,6 +44,7 @@
             android:layout_marginBottom="150dp"
             android:onClick="goSQLprez"
             android:text="SQL"
+            android:background="@drawable/border"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -54,6 +57,7 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
+            android:background="@drawable/border"
             android:onClick="goLinuxprez"
             android:text="Linux"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -71,6 +75,7 @@
             android:layout_marginBottom="-150dp"
             android:onClick="goDockerprez"
             android:text="Docker"
+            android:background="@drawable/border"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

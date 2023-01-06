@@ -17,19 +17,24 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="#1A1A1D">
 
 
         <TextView
             android:id="@+id/textView4"
-            android:layout_width="0dp"
-            android:layout_height="91dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginBottom="420dp"
             android:text="@={question}"
-            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:background="@drawable/question_border"
+            android:gravity="center"
+            android:padding="26dp"
+            android:textSize="18sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -63,6 +68,7 @@
             android:layout_marginEnd="8dp"
             android:onClick="goNext"
             android:text="@{bouton}"
+            android:background="@drawable/border"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.428"
@@ -78,6 +84,7 @@
             android:layout_marginEnd="189dp"
             android:onClick="goHome"
             android:text="QUIT"
+            android:background="@drawable/border"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/button7"
             app:layout_constraintHorizontal_bias="0.0"

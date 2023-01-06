@@ -12,7 +12,10 @@ class linux_prez : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.linux_prez)
     }
-
+    fun goHome(view: View) {
+        val intent = Intent(this, home::class.java)
+        startActivity(intent)
+    }
     fun startLinuxquizz(view: View) {
         val asyncTask = AsyncCall(object : AsyncCall.Callback {
             override fun onTaskCompleted(result: JSONArray) {
